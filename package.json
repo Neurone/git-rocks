@@ -1,0 +1,23 @@
+{
+    "name": "stellaris-italian-translation",
+    "version": "2.2.0",
+    "description": "Mod per Stellaris. Sostituisce la lingua inglese con la lingua italiana.",
+    "scripts": {
+        "dev": "npx grunt dev",
+        "release": "npx grunt",
+        "clean-transifex-files": "node tools/cleanFilesFromTransifex.js tools/from-transifex tools/to-mod",
+        "prepare-en-files-for-transifex": "node tools/prepareFilesForTransifex.js src/reference/localisation/english tools/to-transifex-en",
+        "prepare-it-files-for-transifex": "node tools/prepareFilesForTransifex.js src/mod/localisation/english tools/to-transifex-it"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "grunt": "^1.4.1",
+        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-compress": "^1.6.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "jshint": "^2.13.0",
+        "n-readlines": "^1.0.1"
+    }
+}
