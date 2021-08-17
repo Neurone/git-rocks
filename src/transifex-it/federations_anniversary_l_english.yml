@@ -139,7 +139,7 @@
  NUM_DEFENSIVE_PACTS_TRIGGER: "Il numero di patti difensivi ($VALUE1|0Y$) è $COMPARE$ $VALUE2|0Y$"
  NUM_DEFENSIVE_PACTS_NOT_TRIGGER: "Il numero di patti difensivi ($VALUE1|0Y$) NON è $COMPARE$ $VALUE2|0Y$"
  NUM_SUPPORT_INDEPENDENCE_TRIGGER: "Sostiene l'indipendenza degli imperi $COMPARE$ $VALUE2|0Y$ (attuale: $VALUE1|0Y$)"
- NUM_SUPPORT_INDEPENDENCE_NOT_TRIGGER: "NON sostiene l'indipendenza degli imperi $COMPARE$ $VALUE2|0Y$ (attuale: $VALUE1|0Y$)"
+ NUM_SUPPORT_INDEPENDENCE_NOT_TRIGGER: "NON sstiene l'indipendenza degli imperi $COMPARE$ $VALUE2|0Y$ (attuale: $VALUE1|0Y$)"
  NUM_GUARANTEES_TRIGGER: "Garantisce l'indipendenza degli imperi $COMPARE$ $VALUE2|0Y$ (attuale: $VALUE1|0Y$)"
  NUM_GUARANTEES_NOT_TRIGGER: "NON garantisce $COMPARE$ $VALUE2|0Y$ imperi (attuale: $VALUE1|0Y$)"
  NUM_NON_AGGRESSION_PACTS_TRIGGER: "Il numero di patti di non aggressione ($VALUE1|0Y$) è $COMPARE$ $VALUE2|0Y$"
@@ -162,8 +162,8 @@
  # ENVOY EVENTS
  #################
 
- envoy_events.1.name: "Insulto all'Emissario [envoy_source.GetAdj]"
- envoy_events.1.desc: "Sembra che una terza parte maliziosa sia stata in grado di violare il software di traduzione dell'Emissario di [envoy_source.GetAdj] a [Root.Capital.GetName], [event_envoy.GetName], così che invece di pronunciare magnanimi luoghi comuni, [event_envoy.GetSheHe] ha iniziato a sputare insulti feroci che non hanno lasciato nessuno indenne. Il malfunzionamento dell'attrezzatura di [event_envoy.GetHerHis] fu debitamente scoperto, ma non prima che [Root.GetRulerTitle] [Root.GetRulerName] fosse dichiarato un \"vile [ruler_species.GetNameInsult]\" - un grave insulto che sicuramente richiede una risposta."
+ envoy_events.1.name: "Insulto all'inviato [envoy_source.GetAdj]"
+ envoy_events.1.desc: "Sembra che una terza parte maliziosa sia stata in grado di violare il software di traduzione dell'inviato di [envoy_source.GetAdj] a [Root.Capital.GetName], [event_envoy.GetName], così che invece di pronunciare magnanimi luoghi comuni, [event_envoy.GetSheHe] ha iniziato a sputare insulti feroci che non hanno lasciato nessuno indenne. Il malfunzionamento dell'attrezzatura di [event_envoy.GetHerHis] fu debitamente scoperto, ma non prima che [Root.GetRulerTitle] [Root.GetRulerName] fosse dichiarato un \"vile [ruler_species.GetNameInsult]\" - un grave insulto che sicuramente richiede una risposta."
  envoy_events.1.A: "Che maleducazione."
  envoy_events.1.B: "Beh, è stato divertente!"
 
@@ -311,29 +311,29 @@
  envoy_events.19.desc.authoritarian: "$envoy_events.18.desc.base$ $envoy_events.18.desc.authoritarian.base$ $envoy_events.19.desc.end$"
  envoy_events.19.A: "Con le nostre parole convinceremo."
  opinion_ideological_dispute: "Disputa ideologica"
- federation_militarist_ideology: "Diffusione Ideologica della federazione"
- federation_militarist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori militaristi di diffondersi sempre di più all'interno della nazione."
+ federation_militarist_ideology: "Diffusione ideologica della federazione"
+ federation_militarist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori militaristi di diventare sempre più diffusi nella nostra nazione."
  federation_pacifist_ideology: "$federation_militarist_ideology$"
- federation_pacifist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori pacifisti di diffondersi sempre di più all'interno della nazione."
+ federation_pacifist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori pacifisti di diventare sempre più diffusi nella nostra nazione."
  federation_materialist_ideology: "$federation_militarist_ideology$"
- federation_materialist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori materialisti di diffondersi sempre di più all'interno della nazione."
+ federation_materialist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori materialisti di diventare sempre più diffusi nella nostra nazione."
  federation_spiritualist_ideology: "$federation_militarist_ideology$"
- federation_spiritualist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori spiritualisti di diffondersi sempre di più all'interno della nazione."
+ federation_spiritualist_ideology_desc: "La nostra appartenenza alla federazione sta permettendo ai valori spiritualisti di diventare sempre più diffusi nella nostra nazione."
  federation_xenophobe_ideology: "$federation_militarist_ideology$"
- federation_xenophobe_ideology_desc: "La nostra appartenenza alla federazione sta permettendo alla xenofobia di diffondersi sempre di più all'interno della nazione."
+ federation_xenophobe_ideology_desc: "La nostra appartenenza alla federazione sta permettendo alla xenofobia di diventare sempre più diffusa nella nostra nazione."
  federation_xenophile_ideology: "$federation_militarist_ideology$"
- federation_xenophile_ideology_desc: "La nostra appartenenza alla federazione sta permettendo alla xenofilia di diffondersi sempre di più all'interno della nazione."
+ federation_xenophile_ideology_desc: "La nostra appartenenza alla federazione sta permettendo alla xenofilia di diventare sempre più diffusa nella nostra nazione."
  federation_authoritarian_ideology: "$federation_militarist_ideology$"
- federation_authoritarian_ideology_desc: "La nostra appartenenza alla federazione sta permettendo all'autoritarismo di diffondersi sempre di più all'interno della nazione."
+ federation_authoritarian_ideology_desc: "La nostra appartenenza alla federazione sta permettendo all'autoritarismo di diventare sempre più diffuso nella nostra nazione."
  federation_egalitarian_ideology: "$federation_militarist_ideology$"
- federation_egalitarian_ideology_desc: "La nostra appartenenza alla federazione sta permettendo all'egualitarismo di diffondersi sempre di più all'interno della nazione."
+ federation_egalitarian_ideology_desc: "La nostra appartenenza alla federazione sta permettendo all'egualitarismo di diventare sempre più diffuso nella nostra nazione."
 
 
  #######################
  # GALACTIC COMMUNITY
  #######################
 
- resolution_category_space_fauna_tiyanki: "Fauna Spaziale"
+ resolution_category_space_fauna_tiyanki: "Space Fauna"
  resolution_tiyanki_conservation_act: "Tiyanki Conservation Act"
  resolution_tiyanki_conservation_act_desc: "The Tiyanki are a unique form of spacefaring life, and they must be protected from those who would do them harm."
  resolution_tiyanki_conservation_act_tooltip: "Any empire that kills a §YTiyanki§! will be considered in §RBreach of Galactic Law§!."
@@ -961,9 +961,9 @@
 ###########
 
 
- edict_extended_healthcare_coverage: "Extended Healthcare Coverage"
- edict_extended_healthcare_coverage_desc: "This Edict provides additional resources to §Y$building_clinic$§! and §Y$building_hospital$§! facilities."
- edict_extended_healthcare_coverage_tooltip: "Planets with §Y$building_clinic$§! or §Y$building_hospital$§! gain §G+10%§! §YPop Growth§!."
+ edict_extended_healthcare_coverage: "Copertura Sanitaria Estesa"
+ edict_extended_healthcare_coverage_desc: "Questo Editto fornisce risorse aggiuntive alle §Y$building_clinic$§! e ai §Y$building_hospital$§!."
+ edict_extended_healthcare_coverage_tooltip: "Pianeti con §Y$building_clinic$§! o §Y$building_hospital$§! guadagnano §G+10%§! di §YCrescita Pop§!."
 
  edict_nutritional_plenitude: "$food_policy_generous$"
  edict_nutritional_plenitude_desc: "$food_policy_generous_desc$"
@@ -971,53 +971,53 @@
  edict_nutritional_plenitude_hive: "$food_policy_generous$"
  edict_nutritional_plenitude_hive_desc: "$food_policy_generous_desc$"
 
- edict_evacuation_protocols: "Evacuation Protocols"
- edict_evacuation_protocols_desc: "We must establish a new home and prepare to evacuate our homeworld."
+ edict_evacuation_protocols: "Protocolli di Evacuazione"
+ edict_evacuation_protocols_desc: "Dobbiamo stabilire una nuova casa e prepararci ad evacuare il nostro pianeta natale."
 
- edict_extended_shifts: "Extended Shifts"
- edict_extended_shifts_desc: "We must ask our workers to toil harder. Some blood, sweat and tears may be necessary for the Greater Good."
+ edict_extended_shifts: "Turni Estesi"
+ edict_extended_shifts_desc: "Dobbiamo chiedere ai nostri lavoratori di faticare di più. Un po' di sangue, sudore e lacrime possono essere necessari per il Bene Superiore."
 
- edict_drone_overdrive: "Drone Overdrive"
- edict_drone_overdrive_desc: "Our drones will be worked harder, as more resources are required."
+ edict_drone_overdrive: "Sovraccarico Droni"
+ edict_drone_overdrive_desc: "I nostri droni lavoreranno più duramente man mano che saranno necessarie più risorse."
 
- edict_expanded_breeding_program: "Expanded Breeding Program"
- edict_expanded_breeding_program_desc: "This Edict provides additional resources to the spawning pools."
- edict_expanded_breeding_program_tooltip: "Planets with §Y$building_spawning_pool$§! gain §G+10%§! §YPop Growth§!."
+ edict_expanded_breeding_program: "Programma di Allevamento Amplificato"
+ edict_expanded_breeding_program_desc: "Questo Editto fornisce risorse aggiuntive alle Vasche di Riproduzione."
+ edict_expanded_breeding_program_tooltip: "Pianeti con §Y$building_spawning_pool$§! guadagnano §G+10%§! di §YCrescita Pop§!."
 
  edict_expanded_breeding_program_servitor: "$edict_expanded_breeding_program$"
- edict_expanded_breeding_program_servitor_desc: "Using gamification and point-based reward schemes, we will subtly encourage our Bio-Trophies to fill our Organic Sanctuaries."
- edict_expanded_breeding_program_servitor_tooltip: "Planets with §Y$building_organic_sanctuary$§! or §Y$building_organic_paradise$§! gain §G+10%§! §YPop Growth§!."
+ edict_expanded_breeding_program_servitor_desc: "Usando la gamification e schemi di ricompensa basati sui punti, incoraggeremo sottilmente i nostri Bio-Trofei a riempire i nostri Santuari Biologici."
+ edict_expanded_breeding_program_servitor_tooltip: "Pianeti con un §Y$building_organic_sanctuary$§! o un §Y$building_organic_paradise$§! guadagnano §G+10%§! di §YCrescita Pop§!."
 
- edict_fortify_the_border: "Fortify the Border"
- edict_fortify_the_border_desc: "Defense of our systems is paramount. This Edict will direct additional resources to these ends."
+ edict_fortify_the_border: "Fortificare il Confine"
+ edict_fortify_the_border_desc: "La difesa dei nostri sistemi è fondamentale. Questo editto dirigerà risorse aggiuntive a questo fine."
 
- edict_fleet_supremacy: "Fleet Supremacy"
- edict_fleet_supremacy_desc: "Our navy is our best means to project power. This Edict will prioritize them above lesser needs."
+ edict_fleet_supremacy: "Supremazia Navale"
+ edict_fleet_supremacy_desc: "La nostra flotta è il nostro miglior mezzo per proiettare potere. Questo Editto le darà la priorità rispetto alle necessità minori."
 
- edict_farming_subsidies_tooltip: "Increases the upkeep of £job_farmer£ $job_farmer_plural$ by £energy£§Y0.5§!"
+ edict_farming_subsidies_tooltip: "Aumenta il costo di mantenimento degli £job_farmer£ $job_farmer_plural$ di £energy£§Y0.5§!"
 
- edict_capacity_subsidies: "Capacity Subsidies"
+ edict_capacity_subsidies: "Sussidi Energetici"
  edict_capacity_subsidies_desc: "$edict_capacity_overload_desc$"
- edict_capacity_subsidies_tooltip: "Increases the upkeep of £job_technician£ $job_technician_plural$ by £energy£§Y0.5§!"
+ edict_capacity_subsidies_tooltip: "Aumenta il costo di mantenimento dei £job_technician£ $job_technician_plural$ di £energy£§Y0.5§!"
 
- edict_mining_subsidies: "Mining Subsidies"
+ edict_mining_subsidies: "Sussidi Minerari"
  edict_mining_subsidies_desc: "$edict_production_targets_desc$"
- edict_mining_subsidies_tooltip: "Increases the upkeep of £job_miner£ $job_miner_plural$ by £energy£§Y0.5§!"
+ edict_mining_subsidies_tooltip: "Aumenta il costo di mantenimento dei £job_miner£ $job_miner_plural$ di £energy£§Y0.5§!"
 
- edict_industrial_subsidies: "Industrial Subsidies"
- edict_industrial_subsidies_desc: "Success can be measured by the acquisition of things. This Edict provides our factories with additional resources so production can be increased."
- edict_industrial_subsidies_tooltip: "Increases the upkeep of £job_artisan£ $job_artisan_plural$ by £energy£§Y1§!"
+ edict_industrial_subsidies: "Sussidi Industriali"
+ edict_industrial_subsidies_desc: "Il successo si misura con l'acquisizione di cose. Questo Editto fornisce alle nostre fabbriche risorse aggiuntive per aumentare la produzione."
+ edict_industrial_subsidies_tooltip: "Aumenta il costo di mantenimento degli £job_artisan£ $job_artisan_plural$ di £energy£§Y1§!"
 
- edict_forge_subsidies: "Forge Subsidies"
- edict_forge_subsidies_desc: "Our empire thirsts for more specialized alloys and precious metals. This Edict provides our foundries with additional resources so production can be increased."
- edict_forge_subsidies_tooltip: "Increases the upkeep of £job_foundry£ $job_foundry_plural$ by £energy£§Y1§!"
+ edict_forge_subsidies: "Sussidi alle Fonderie"
+ edict_forge_subsidies_desc: "Il nostro impero ha sete di leghe più specializzate e di metalli preziosi. Questo Editto fornisce alle nostre fonderie risorse aggiuntive per aumentare la produzione."
+ edict_forge_subsidies_tooltip: "Aumenta il costo di mantenimento degli £job_foundry£ $job_foundry_plural$ di £energy£§Y1§!"
 
- edict_research_subsidies: "Research Subsidies"
- edict_research_subsidies_desc: "Knowledge is power. This Edict focuses our efforts on advancing technology."
- edict_research_subsidies_tooltip: "Increases the upkeep of £job_researcher£ $job_researcher_plural$ by £energy£§Y1§!"
+ edict_research_subsidies: "Sussidi di Ricerca"
+ edict_research_subsidies_desc: "La conoscenza è potere. Questo Editto concentra i nostri sforzi sul progresso della tecnologia."
+ edict_research_subsidies_tooltip: "Aumenta il costo di mantenimento dei £job_researcher£ $job_researcher_plural$ di £energy£§Y1§!"
 
- edict_veneration_of_saints: "Veneration of Saints"
- edict_veneration_of_saints_desc: "Rather than focusing exclusively on this temporal world, we should provide our spiritual guides with whatever they need to prepare us for the next."
+ edict_veneration_of_saints: "Venerazione dei Santi"
+ edict_veneration_of_saints_desc: "Invece di concentrarci esclusivamente su questo mondo passeggero, dovremmo fornire alle nostre guide spirituali tutto ciò di cui hanno bisogno per prepararci al prossimo."
 
 ###########
 # OTHER
