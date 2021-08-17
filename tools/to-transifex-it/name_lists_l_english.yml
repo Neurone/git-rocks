@@ -363,7 +363,7 @@
  PRE_FUN_tooth: "$FUN_tooth$"
  PRE_FUN_tooth_plural: "$FUN_tooth_plural$"
 
- #ROBOT:0 "Robot"
+ #ROBOT: "Robot"
  ROBOT_desc: "La Classe della Specie non ha alcun effetto sul tuo Impero, ma le Specie di Classe Robot potrebbero considerare gli altri Robot meno alieni rispetto ad altre Classi di Specie."
  ROBOT_plural: "Robot"
  ROBOT_insult_01: "lattina"
@@ -387,7 +387,7 @@
  ROBOT_tooth: "compattatore di nutrienti"
  ROBOT_tooth_plural: "compattatori di nutrienti"
 
- #MMACHINE:0 "Machine"
+ #MMACHINE: "Machine"
  MACHINE_desc: "La Classe della Specie non ha alcun effetto sul tuo Impero, ma le Specie di Classe Macchina potrebbero considerare le altre Macchine meno aliene rispetto ad altre Classi di Specie."
  MACHINE_plural: "Macchine"
  MACHINE_insult_01: "lattina"
@@ -402,12 +402,12 @@
  MACHINE_sound_04: "bippare"
  MACHINE_sound_05: "vibrare"
  MACHINE_organ: "chipset"
- MACHINE_organ_plural: "chipset"
+ MACHINE_organ_plural: "chipsets"
  MACHINE_mouth: "connettore d'alimentazione"
  MACHINE_ear: "trasduttore audio"
  MACHINE_ear_plural: "trasduttori audio"
  MACHINE_hand: "appendice prensile"
- MACHINE_hand_plural: "appendici prensili"
+ MACHINE_hand_plural: "appendici prensile"
  MACHINE_tooth: "compattatore di nutrienti"
  MACHINE_tooth_plural: "compattatori di nutrienti"
 
